@@ -197,7 +197,7 @@ export class TimerAnimation {
         // );
 
         // decimal and colon will be have the width
-        const startY = (this.render.options.width! * 3) / 7;
+        const startY = (this.render.options.height! * 3) / 7;
         if (char == ".") {
           currentCharPos += charWidth / 2;
           if (world.bodies.find((x) => x.label === "t-point") === undefined) {
